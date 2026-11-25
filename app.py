@@ -283,7 +283,7 @@ def create_pdf():
     notes = [
         "1. The IP address 10.1.192.12 is assigned to both Tier 1 and Tier 3. "
         "Confirm whether these are separate interfaces or whether an IP correction is required.",
-        "2. Confirm the purpose and role of offline servers 10.1.192.13 and 10.1.192.14.",
+        "2. Confirm the purpose and role of offline servers - and 10.1.192.14.",
         "3. Confirm the actual Apache application ports and database configuration.",
         "4. Restrict database access to authorized application servers."
     ]
@@ -376,7 +376,7 @@ st.markdown("""
     <div style="display:flex; gap:15px;">
         <div class="server" style="flex:1;">
             <h4>Offline Server 1</h4>
-            <p class="ip">10.1.192.13</p>
+            <p class="ip">-</p>
         </div>
         <div class="server" style="flex:1;">
             <h4>Offline Server 2</h4>
